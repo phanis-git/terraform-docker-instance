@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "s3" {
-    bucket = "sample-docker-instance-terraform"
+    bucket = "terraform-docker-instance"
     key    = "terraform-code-for-sample-docker-instance"
     region = "us-east-1"
     use_lockfile = true
